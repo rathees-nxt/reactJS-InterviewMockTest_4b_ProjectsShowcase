@@ -1,0 +1,71 @@
+.header-container {
+  padding: 10px 80px;
+  background-color: #f1f5f9;
+}
+.website-img {
+  width: 160px;
+  height: 60px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  margin-top: 0px;
+}
+.failure-img {
+  height: 250px;
+  width: 500px;
+}
+.failure-heading {
+  font-size: 36px;
+  font-family: roboto;
+  font-weight: 600;
+  color: #475569;
+}
+.failure-para {
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #475569;
+  margin: 0%;
+  margin-bottom: 20px;
+}
+.retry-btn {
+  padding: 10px 20px;
+  background-color: #328af2;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.select {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #e2e8f0;
+  margin: 50px 80px;
+  font-size: 14px;
+  font-family: roboto;
+}
+
+.project-list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  padding: 10px 0px 10px 65px;
+}
